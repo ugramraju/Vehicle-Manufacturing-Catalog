@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+.container:hover{
+    cursor: pointer;
+}
+.search-filter-boxes{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   margin-left: 0;
+   margin-right: 0;
+width:100%;
+justify-content: space-between;
+}
+.search-box>input{
+    width:60%;
+    height:2em;
+    border-radius: 5px;
+}
+.filter-box >select{
+    height: 2em;
+    border-radius: 5px;
+}
+table{
+    width: 60%;
+}
+th,td{
+    height: 3em;
+    width:20%;
+    font-size: 1.5em;
+}
+th{
+    background-color: rgb(87, 87, 241);
+    color: white;
+}
+label{
+    font-weight: bolder;
+    font-size: 1em;
+}
